@@ -1,1 +1,1 @@
-# wprdpress
+# wordpress
