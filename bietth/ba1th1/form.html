@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Biểu mẫu đăng nhập 1</h2>
+
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Nhập email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Mật khẩu:</label>
+                <input type="password" id="pwd" placeholder="Nhập mật khẩu" name="pwd">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Ghi nhơ tôi</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+        </form>
+    </div>
+
+    <div class="container">
+
+        <h2>Biểu mẫu đăng nhập 2</h2>
+
+        <form>
+            <div class="form-group ">
+                <label for="email ">Email:</label>
+                <input type="email " class="form-control " id="email " placeholder="Nhập email " name="email ">
+            </div>
+            <div class="form-group ">
+                <label for="pwd ">Mật khẩu:</label>
+                <input type="password " class="form-control " id="pwd " placeholder="Nhập mật khẩu " name="pwd ">
+            </div>
+            <div class="checkbox ">
+                <label><input type="checkbox" name="remember "> Ghi nhơ tôi</label>
+            </div>
+            <button type="submit " class="btn btn-primary ">Đăng nhập</button>
+        </form>
+    </div>
+    <div class="container">
+
+        <h2>Biểu mẫu đăng nhập 3</h2>
+        <form class="form-inline">
+            <div class="form-group mb-2">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail2" placeholder="Nhập email">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            </div>
+            <div class="checkbox ">
+                <label><input type="checkbox" name="remember "> Ghi nhơ tôi</label>
+            </div>
+            <button type="submit " class="btn btn-primary ">Đăng nhập</button>
+        </form>
+    </div>
+
+
+
+    <div class="container">
+        <h2>Mở biểu mẫu đăng nhập</h2>
+
+        <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal2"> Mở hộp thoại</a>
+        <div id="modal2" class="modal fade" tabidex="-1">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header text-center d-block">
+                        <button type="button" class="close" data-dismiss="modal">
+
+                            </button>
+                        <h2 class="modal-title">
+
+                            <i class="fa fa-lock"></i>Đăng nhập
+                        </h2>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <lable for="usernameInput">
+                                    <i class="fa fa-user"></i>Người dùng:
+                                </lable>
+                                <input class="form-control" placeholder="Nhập tên người dùng" id="name">
+                            </div>
+
+                            <div class="form-group">
+                                <lable for="passwordInput">
+                                    <i class="fa fa-eye"></i>Mật khẩu:
+                                </lable>
+                                <input class="form-control" placeholder="Nhập mật khẩu" id="password">
+                            </div>
+
+                            <div class="form-group form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label">Ghi nhơ tôi
+
+                                </label>
+                            </div>
+                            <button class="btn btn-success btn-block">
+                                <i class="fa fa-power-off"></i>Đăng nhập
+                            </button>
+                        </form>
+
+                    </div>
+                    <div class="model-footer">
+
+                        <a href="#" class="btn btn-danger mr-auto" data-dismiss="modal">
+                            <i class="fa fa-times"></i>Hủy bỏ
+                        </a>
+                        <br>
+                    </div>
+
+                    <span class="psw">Bạn chưa phải là thành viên <a href="#">Đăng ky? </a></span><br>
+                    <span class="psw">Quên <a href="#">mật khẩu?</a></span>
+                </div>
+
+
+
+            </div>
+        </div>
+</body>
+
+</html>
